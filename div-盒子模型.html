@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>div盒子模型</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		div{}
+		#top,#botton{
+		width:500px;
+		height: 200px;
+		float:left;
+		/*border: dashed 1px green;*/
+		margin-bottom: 20px;
+
+		}
+		#div1{width: 200px;height: 200px;border: solid 1px blue;float: left;margin-left: 20px;}
+		#div2{width: 200px;height: 200px;border: solid 1px red;float: left;margin-left: 20px;}
+		#div3{width: 200px;height: 200px;border: solid 1px blue;float: left;margin-left: 20px;}
+		#div{width: 200px;height: 200px;border: solid 1px red;float: left;margin-left: 20px;}
+		
+	</style>
+</head>
+<body>
+	<div id="top">
+		<div id="div1">我是div1</div>
+		<div id="div2">我是div2</div>	
+	</div>
+
+	<div id="botton">
+		<div id="div1">我是div3</div>
+		<div id="div2">我是div4</div>	
+	</div>
+	
+</body>
+</html>
